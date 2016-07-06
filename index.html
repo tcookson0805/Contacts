@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacts App</title>
+</head>
+
+  <link rel='stylesheet' type:'text/css' href='css/main.css'>
+<body>
+
+  <header>
+    <div id='headline'>My Contacts</div>
+  </header>
+  
+  <div id='container'>
+  <section id='contact_input_hero'>
+    
+    <div class='contact-input'>
+      <div class='contact-input-header'>Add a Contact</div>
+      
+      <form class='contact-input-data'>
+      <div class='contact-input-info'>
+        <div class='contact-input-line'>
+          <div class='info'>First Name</div>
+          <div class='info-input'><input type="text" name="firstName" id="firstName" class="input-text" maxlength="20" autocomplete="off" placeholder="John" required/></div>
+        </div>
+        
+        <div class='contact-input-line'>
+          <div class='info'>Last Name</div>
+          <div class='info-input'><input type="text" name="lastName" id="lastName" class="input-text" maxlength="20" autocomplete="off" placeholder="Smith" required/></div>
+        </div>
+        
+        <div class='contact-input-line'>
+          <div class='info'>Phone Number</div>
+          <div class='info-input'><input type="text" name="phoneNumber" id="phoneNumber" class="input-text" maxlength="20" autocomplete="off" placeholder="555-222-1234" /></div>
+        </div>
+
+        
+        <div class='contact-input-line'>
+          <div class='info'>Email</div>
+          <div class='info-input'><input type="text" name="email" id="email" class="input-text" maxlength="30" autocomplete="off" placeholder="johnsmith@gmail.com" /></div>
+        </div>
+        
+        <div class='contact-input-line'>
+          <div class='info'>Street</div>
+          <div class='info-input'><input type="text" name="street" id="street" class="input-text" maxlength="40" autocomplete="off" placeholder="123 Main St." /></div>
+        </div>
+        
+        <div class='contact-input-line'>
+          <div class='info'>City</div>
+          <div class='info-input'><input type="text" name="city" id="city" class="input-text" maxlength="30" autocomplete="off" placeholder="Westchestertonfieldville" /></div>
+        </div>
+        
+        <div class='contact-input-line'>
+          <div class='info'>State</div>
+          <div class='info-input'><input type="text" name="state" id="state" class="input-text" maxlength="30" autocomplete="off" placeholder="Iowa" /></div>
+        </div>
+        
+        <div class='contact-input-line'>
+          <div class='info'>Zip</div>
+          <div class='info-input'><input type="text" name="zip" id="zip" class="input-text" maxlength="30" autocomplete="off" placeholder="90210" /></div>
+        </div>
+      </div>
+      
+      <div class='submit'>
+          <input type="submit" id="submitButton" class="submitButton" name="submit" value="Submit"/>
+      </div>
+      
+      </form>
+    </div>
+  </section>
+  
+  <section id='contact_list_hero'>
+    <div class='contact-list'>
+      <div class='contact-list-header'>Contacts</div>
+      <div class='contact-list-group'>
+      
+<!--         <div class='contact'>
+          <div class='contact_id'></div>
+          <div class='contact_headline'>Tyler Cookson</div>
+            
+          <div class='contact_current_info'>
+
+            <div class='contact_current_info_phonenumber'>
+              <div class='contact_current_info_phonenumber_left'>Phone:</div>
+              <div class='contact_current_info_phonenumber_right'>
+                <div class='contact_current_info_phonenumber_number'><span class='contact_current_phonenumber'>573.270.4891</span></div>
+              </div>
+            </div>
+            
+            
+            <div class='contact_current_info_email'>
+              <div class='contact_current_info_email_left'>Email:</div>
+              <div class='contact_current_info_email_right'>
+                <div class='contact_current_info_email_address'><span class='contact_current_email'>tcookson0805@gmail.com</span></div>
+                <div class='contact_current_info_email_address_add'>+</div>
+              </div>
+            </div>
+               
+            <div class='contact_current_info_address'>
+              <div class='contact_current_info_address_left'>Address:</div>
+              <div class='contact_current_info_address_right'>      
+                <div class='contact_current_info_street'><span class='contact_current_street'>635 Tennessee St</span></div>
+                <div class='contact_current_info_city'><span class='contact_current_city'>San Francisco</span></div>
+                <div class='contact_current_info_state'><span class='contact_current_state'>California</span></div>
+                <div class='contact_current_info_zip'><span class='contact_current_zip'>94107</span></div>
+              </div>
+            </div>
+            
+            <div class='contact_options'>
+              <div class='contact_options_delete'>Delete</div>
+            </div>
+      
+          </div>
+        </div> -->
+
+
+<!--         <div class='contact'>
+          <div class='contact_id'></div>
+          <div class='contact_headline'>Bob Graviett</div>
+            
+          <div class='contact_current_info'>
+
+            <div class='contact_current_info_phonenumber'>
+              <div class='contact_current_info_phonenumber_left'>Phone:</div>
+              <div class='contact_current_info_phonenumber_right'>
+                <div class='contact_current_info_phonenumber_number'><span class='contact_current_phonenumber'>573.262.2273</span></div>
+              </div>
+            </div>
+            
+            
+            <div class='contact_current_info_email'>
+              <div class='contact_current_info_email_left'>Email:</div>
+              <div class='contact_current_info_email_right'>
+                <div class='contact_current_info_email_address'><span class='contact_current_email'>badBob@gmail.com</span></div>
+                <div class='contact_current_info_email_address_add'>+</div>
+              </div>
+            </div>
+               
+            <div class='contact_current_info_address'>
+              <div class='contact_current_info_address_left'>Address:</div>
+              <div class='contact_current_info_address_right'>      
+                <div class='contact_current_info_street'><span class='contact_current_street'>135 County Rd 35</span></div>
+                <div class='contact_current_info_city'><span class='contact_current_city'>Oran</span></div>
+                <div class='contact_current_info_state'><span class='contact_current_state'>Missouri</span></div>
+                <div class='contact_current_info_zip'><span class='contact_current_zip'>94107</span></div>
+              </div>
+            </div>
+            
+            <div class='contact_options'>
+              <div class='contact_options_delete'>Delete</div>
+            </div>
+      
+          </div>
+        </div> -->
+    
+      </div>
+    </div>
+  </section>
+
+  
+  
+  <!-- contactInfo template -->
+        <div class='contact_template'>
+          <div class='contact_id'></div>
+          <div class='contact_headline'></div>
+            
+          <div class='contact_current_info'>
+
+            <div class='contact_current_info_phonenumber'>
+              <div class='contact_current_info_phonenumber_add'>+</div>
+              <div class='contact_current_info_phonenumber_left'>Phone:</div>
+              <div class='contact_current_info_phonenumber_right'>
+                <div class='contact_current_info_phonenumber_number'><span class='contact_current_phonenumber'></span></div>
+              </div>
+            </div>
+            
+            
+            <div class='contact_current_info_email'>
+              <div class='contact_current_info_email_address_add'>+</div>
+              <div class='contact_current_info_email_left'>Email:</div>
+              <div class='contact_current_info_email_right'>
+                <div class='contact_current_info_email_address'><span class='contact_current_email'></span></div>
+              </div>
+            </div>
+               
+            <div class='contact_current_info_address'>
+              <div class='contact_current_info_address_add'>+</div>
+              <div class='contact_current_info_address_left'>Address:</div>
+              <div class='contact_current_info_address_right'>      
+                <div class='contact_current_info_street'><span class='contact_current_street'></span></div>
+                <div class='contact_current_info_city'><span class='contact_current_city'></span></div>
+                <div class='contact_current_info_state'><span class='contact_current_state'></span></div>
+                <div class='contact_current_info_zip'><span class='contact_current_zip'></span></div>
+              </div>
+            </div>
+            
+            <div class='contact_options'>
+              <div class='contact_options_delete'>Delete</div>
+            </div>
+      
+          </div>
+        </div>
+  
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  
+</body>
+</html>

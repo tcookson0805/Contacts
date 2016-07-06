@@ -1,0 +1,314 @@
+
+* {
+  
+  box-sizing: border-box;
+}
+
+body {
+  
+}
+
+#container {
+  width: 75%;
+  margin: 0 auto;
+  overflow: auto;
+/*  border: 1px red solid;
+*/}
+
+header {
+
+  font-size: 3em;
+  width: 100%;
+  margin: 1em;
+  overflow: auto;
+}
+
+section {
+
+}
+
+#headline {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+/*  CONTACT INPUT  */
+
+
+#contact_input_hero {
+  float: left;
+  width: 50%;
+  overflow: auto;
+/*  background-color: blue;
+*/}
+
+.contact-input {
+  width: 90%;
+  height: 25em;
+  margin: 0 auto;
+/*  border: 1px green solid;
+*/  padding: 1em;
+  overflow: auto;
+}
+
+.contact-input-header {
+  font-size: 2em;
+  text-align: center;
+}
+
+.contact-input-info {
+  float: left;
+  width: 100%;
+  padding: 1em;
+}
+
+.contact-input-line {
+  padding: 1em;
+}
+
+.info {
+  float: left;
+/*  border: 1px green solid;
+*/  width: 40%;
+}
+
+.info-input {
+  float: left;
+/*  border: 1px red solid;*/
+  width: 60%;
+}
+
+.input-text {
+  width: 100%;
+  border-radius: 0.2em;
+}
+
+#firstName #lastName #phoneNumber #street #city #state {
+  
+}
+
+.submit {
+  width: 20%;
+  margin: 0 auto;
+}
+
+#submitButton {
+  width: 10em;
+}
+
+
+
+
+
+/*  CONTACT LIST  */
+
+
+
+#contact_list_hero {
+  float: left;
+  width: 50%;
+  overflow: auto;
+/*  background-color: yellow;
+*/}
+
+.contact-list {
+  width: 70%;
+  margin: 0 auto;
+/*  border: 1px green solid;
+*/  height: 25em;
+  padding-top: 1em;
+}
+
+.contact-list-header {
+  font-size: 2em;
+  text-align: center;
+}
+
+.contact-list-group {
+  padding-top: 1.5em;
+}
+
+.contact {
+  margin: 1em;
+  
+}
+
+
+/*  CURRENT CONTACT  */
+
+
+#contact_current_hero {
+  text-align: center;
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+  display: none;
+}
+
+
+.contact_current {
+  width: 40%;
+  margin: 0 auto;
+/*  border: 1px blue solid;*/
+}
+
+
+.contact_headline {
+  font-size: 1.0em;
+  text-align: left;
+}
+
+.contact_current_info {
+  text-align: left;
+  padding: 0.5em 0 0 0.5em;
+  display: none;
+}
+
+.contact_options {
+
+} 
+
+.contact_options_edit {
+  width: 50%;
+  float: left;
+  background-color: green;
+} 
+
+.contact_options_delete {
+  text-align: center;
+  width: 30%;
+  background-color: red;
+  border-radius: 0.3em;
+  margin: 4em auto 0 auto;
+  clear: both;
+}
+  
+
+
+
+.contact_current_headline {
+  font-weight: bold;
+}
+
+.contact_current_info_phonenumber {
+  padding-bottom: 1.5em;
+  font-weight: bold;
+  clear: both;
+}
+
+.contact_current_info_phonenumber_left {
+  width: 20%;
+  float: left;
+}
+
+.contact_current_info_phonenumber_right {
+  width: 70%;
+  float: left;
+}
+
+.contact_current_info_phonenumber_add {
+  width: 10%;
+  float: left;
+/*    border: 1px green solid;
+*/
+}
+
+
+.contact_current_info_phonenumber_number{
+  
+}
+
+
+
+.contact_current_info_email {
+  padding-bottom: 1.5em;
+  font-weight: bold;
+  clear: both;
+}
+
+.contact_current_info_email_left {
+  width: 20%;
+  float: left;
+/*  border: 1px red solid;
+*/}
+
+.contact_current_info_email_right {
+  font-weight: normal;
+  width: 70%;
+  float: left;
+/*  border: 1px yellow solid;
+*/}
+
+.contact_current_info_email_address{
+  width: 80%;
+  display: inline-block;
+/*  border: 1px blue solid;
+*/}
+
+.contact_current_info_email_address_add {
+  width: 10%;
+  float: left;
+/*    border: 1px green solid;
+*/
+}
+
+.contact_current_info_address {
+  padding-bottom: 1.5em;
+  font-weight: bold;
+  clear: both;
+}
+
+.contact_current_info_address_left {
+  width: 25%;
+  float: left;
+}
+
+.contact_current_info_address_right {
+  font-weight: normal;
+  width: 65%;
+  float: left;
+}
+
+.contact_current_info_address_add {
+  width: 10%;
+  float: left;
+/*    border: 1px green solid;
+*/
+}
+
+.contact_current_phonenumber {
+  font-weight: normal;
+}
+
+.contact_current_email {
+  font-weight: normal;
+}
+
+.contact_current_address {
+  font-weight: normal;
+}
+
+.contact_id {
+  display: none;
+}
+
+.contact {
+}
+
+.contact_template {
+  display: none;
+}
+
+.form-edit {
+  return: false;
+}
+
+.input-edit {
+  width: 100%;
+  margin: 0.2em;
+  border-radius: 0.2em;
+}
+
+
